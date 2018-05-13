@@ -109,4 +109,9 @@ public class Emprestimo {
 		return true;
 	}
 
+	public boolean verificaDiaDaSemana(String data) {
+		DateFormat df = new SimpleDateFormat("dd/mm/yyyy");
+		return true;
+	}
+
 }
