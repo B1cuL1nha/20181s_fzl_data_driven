@@ -11,3 +11,4 @@ public class ObtemUsuario {
 		return usuario;
 	}
 }
+ 

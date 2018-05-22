@@ -31,7 +31,7 @@ public class EmprestimoDAO {
 			throw new RuntimeException(e);
 		}
 		return codigoRetorno;
-	}
+	} 
 	public int exclui (int numeroEmprestimo) {
 		java.sql.PreparedStatement ps;
 		int codigoretorno = 0;

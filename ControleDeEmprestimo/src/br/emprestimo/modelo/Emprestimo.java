@@ -18,7 +18,7 @@ public class Emprestimo {
 	public void setEmprestimoNumero() {
 		emprestimoNumero = emprestimoNumero + 1;
 	}
-	
+	 
 	public int getEmprestimoNumero() {
 		return emprestimoNumero;
 	}

@@ -37,7 +37,7 @@ public class UC01RegistraEmprestimoDeLivroConectaDB {
 		ServicoEmprestimo servico = new ServicoEmprestimo();
 		umEmprestimo = servico.empresta(umLivro, umUsuario);
 		EmprestimoDAO emprestimoDAO = new EmprestimoDAO();
-		
+		 
 		//acao
 		int resultadoEsperado = emprestimoDAO.adiciona(umEmprestimo);
 		

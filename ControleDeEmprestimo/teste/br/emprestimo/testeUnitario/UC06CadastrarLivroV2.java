@@ -41,7 +41,7 @@ public class UC06CadastrarLivroV2 {
 			{ "1111", "Introducao ao Teste de Software", null, "Autor invalido" }
 			
 		});
-	}
+	} 
 
 	// Este teste sera executado n vezes de acordo com a quantidade de parametros
 	// fornecidos

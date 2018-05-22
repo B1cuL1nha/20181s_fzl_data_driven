@@ -38,7 +38,7 @@ public class UC10CadastrarUsuarioV2 {
 			
 		});
 	}
-
+ 
 	// Este teste sera executado n vezes de acordo com a quantidade de parametros
 	// fornecidos
 	@Test

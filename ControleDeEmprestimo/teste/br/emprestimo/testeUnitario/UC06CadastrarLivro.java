@@ -33,7 +33,7 @@ public class UC06CadastrarLivro {
 		Livro resultadoObtido = ObtemLivro.comDadosValidos();
 		//verificacao
 		assertTrue(resultadoEsperado.equals(resultadoObtido));
-	}
+	} 
 	@Test
 	public void CT03cadastrarLivroComISBN_em_branco(){
 		//cenario

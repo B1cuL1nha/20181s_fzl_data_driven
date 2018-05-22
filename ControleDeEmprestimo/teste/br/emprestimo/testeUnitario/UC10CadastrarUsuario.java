@@ -36,4 +36,4 @@ public class UC10CadastrarUsuario {
 		assertTrue(resultadoEsperado.equals(usuario));
 	}
 	
-}
+} 

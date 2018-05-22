@@ -25,7 +25,7 @@ public class Usuario {
 		}
 		this.nome = nome;
 	}
-
+ 
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

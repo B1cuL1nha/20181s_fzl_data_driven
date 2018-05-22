@@ -43,7 +43,7 @@ public class UC01RegistrarEmprestimoDeLivroV2 {
 			{ObtemLivro.comDadosValidos(), null, "invalido" }
 		});
 	}
-
+ 
 	
 	@Test
 	public void CT01UC01ValidaComportamentoDoRegistroDeEmprestimo() {
