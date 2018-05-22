@@ -9,10 +9,19 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
 public class Emprestimo {
+	private static int emprestimoNumero = 0;
 	private Livro livro;
 	private Usuario usuario;
 	private String dataEmprestimo;
 	private String dataDevolucao;
+	
+	public void setEmprestimoNumero() {
+		emprestimoNumero = emprestimoNumero + 1;
+	}
+	
+	public int getEmprestimoNumero() {
+		return emprestimoNumero;
+	}
 
 	public Livro getLivro() {
 		return livro;
@@ -53,7 +62,7 @@ public class Emprestimo {
 	}
 
 	public String setDataEmprestimo() {
-		DateTimeFormatter fmt = DateTimeFormat.forPattern("dd/MM/YYYY");
+		DateTimeFormatter fmt = DateTimeFormat.forPattern("YYYY/MM/dd");
 		return new DateTime().toString(fmt);
 	}
 
@@ -66,7 +75,7 @@ public class Emprestimo {
 	 */
 
 	public boolean validaData(String data) {
-		DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+		DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
 		df.setLenient(false); // mantem rigor em relacao a precisao
 		try {
 			df.parse(data); // data válida
